@@ -6,23 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="cronometro.js"></script>
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <h1 class="center">Cronometro</h1>
+        <h1 class="center">Cronómetro</h1>
     </header>
     <div class="border">
-        <p class="center letra">00 : 00: 00</p>
-    </div> 
-    <div class="centerDiv letra">
-        <button class="letra">Contar</button>
-        <button class="letra">Pausar</button>
-        <button class="letra">Borrar Conteo</button>
+        <p id="parrafo" class="center letra">0 : 0 : 0</p>
     </div>
-    <div>
-        <h2 class="center letra borderHistorial">Historial</h2>
+    <div class="centerDiv letra">
+        <button class="letra" onclick="inicioConteo()">Contar</button>
+        <button class="letra" onclick="pararConteo()">Pausar</button>
+        <button class="letra" onclick="borrarRegistro()">Borrar Conteo</button>
+    </div>
+    <div class="borderHistorial ">
+        <h2 class="center letra">Historial</h2>
+        <p id="historial" class="pe"></p>
     </div>
 </body>
+
 </html>
