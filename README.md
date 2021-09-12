@@ -1,9 +1,9 @@
-# HOJA DE VIDA
+# CRONÓMETRO
 ## Descripción
 
-Cronometro
+Cronómetro
 
 ## Lenguaje
-esta programada en html y tiene una hoja de estilos externa
+Esta programado en html y tiene una hoja de estilos externa.
 
 [CRONOMETRO](https://manudavril31.github.io/cronometro/)
